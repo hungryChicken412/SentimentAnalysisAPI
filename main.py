@@ -2,7 +2,7 @@
 from flask import Flask
 from flask_restful import Api, Resource
 from flask import request
-from smartbot import calculateSentiment
+
 
 app = Flask(__name__)
 api = Api(app)
